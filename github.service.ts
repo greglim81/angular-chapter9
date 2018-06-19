@@ -1,6 +1,6 @@
 import {HttpClient} from '@angular/common/http';
-import {Observable} from 'rxjs/Observable';
-import {Injectable} from '@angular/core';
+import {Observable} from 'rxjs';
+import {Injectable} from '@angular/core'; 
 
 export interface GitHubUser{
     html_url: string;
